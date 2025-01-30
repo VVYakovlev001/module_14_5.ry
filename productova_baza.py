@@ -7,7 +7,7 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 import fail
 from crud_functions import add_user
 
-api = "7345376595:AAHyZWBH1R5sP5J_lA4vACj1aJTG6dny2wI"
+api = ""
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
